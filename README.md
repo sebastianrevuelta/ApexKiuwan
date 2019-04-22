@@ -8,8 +8,8 @@ Preparation should be done only once.
 
 1.1 Convert PMD rulesets to Kiuwan rulesets:
    - Verify Java 8 is installed on your system and it can be found from a command line: execute *"java -version"*
-   - Unpack the tool RulesPMDtoKiuwan.zip to any directory on Windows PC or Linux server.
-   - in the ./rules directory you should copy the PMD Apex rulesets. You can take from the PMD distribution, folder: /pmd-src-{version}/pmd-apex/src/main/resources/**category**/apex
+   - Download this github project to any directory on Windows PC or Linux server.
+   - in the ./ConversorRulesPMDtoKiuwan/rules directory you should copy the PMD Apex rulesets. You can take from the PMD distribution, folder: /pmd-src-{version}/pmd-apex/src/main/resources/**category**/apex
    - Open a command terminal (Windows CMD or Linux shell) and navigate to directory ./script
    - Execute .\start.cmd or ./start.sh for Windows or Linux, respectively. Both scripts only execute a Java program. 
    The script can be adapted as needed. Executing the script, it leaves a new directory in .\rules\Kiuwan with all the new Kiuwan rules (*.xml) and a zip file (.\rules\KiuwanRules.zip) containing these rules.
