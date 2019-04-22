@@ -1,9 +1,10 @@
-# Apex in Kiuwan
+# How to analyse Apex code with Kiuwan
 
-This document explains wow to analyse Apex files with Kiuwan.
+This document explains how to analyse Apex code with Kiuwan. There are 2 main steps, preparation and execution.
+Preparation should be done only once.
 
-1.Prepare test environment: only to do once (Except changes)
-=====================================
+1.Set environment
+=================
 
 1.1 Convert PMD rulesets to Kiuwan rulesets:
    - Verify Java 8 is installed on your system and it can be found from a command line: execute *"java -version"*
@@ -26,13 +27,18 @@ This document explains wow to analyse Apex files with Kiuwan.
 2.How to execute an Apex analysis
 =====================================
 
-2.1 Execute PMD tool to generate XML report: apex.xml. You can see how to generate an xml report here: https://pmd.github.io/latest/pmd_userdocs_installation.html#running-pmd-via-command-line
+2.1 Execute PMD tool to generate XML report: apex.xml. The name of the report could be configured as parameter in the rule: "Apex report plugin rule"
+
+You can see how to generate an xml report here: 
+https://pmd.github.io/latest/pmd_userdocs_installation.html#running-pmd-via-command-line
 
 2.2 This xml must be copied or generated in the path application
+
 Example if you are analyzing the application "My First Apex app" and the path is: "/source/apex/MyFirstApp/
 Then the xml PMD report should be in that path.
 
 2.3 Execute Kiuwan Local Analyzer, or CLI command
+
 Kiuwan Apex rules will look for the PMD report in the path of analysis (in the example "/source/apex/MyFirstApp/") or in any subfolder.
 
 2.4 Look up results in Kiuwan web interface.
