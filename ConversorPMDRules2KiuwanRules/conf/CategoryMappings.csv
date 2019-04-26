@@ -1,0 +1,8 @@
+security,SECURITY
+performance,EFFICIENCY
+errorprone,RELIABILITY
+documentation,MAINTAINABILITY
+desing,MAINTAINABILITY
+codestyle,MAINTAINABILITY
+bestpractices,MAINTAINABILITY
+default_category,MAINTAINABILITY

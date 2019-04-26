@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <rule-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.optimyth.com/schema/definitions/rule" version="1.0">
-  <rule id="CUS.JAVA.MANUALPMD.Template">
+  <rule id="CUS.APEX.MANUALPMD.Template">
     <java-class>mcp.kiuwan.rules.apex.ReglaVacia</java-class>
     <java-version>1.8</java-version>
     <reference><![CDATA[templateText]]></reference>
@@ -15,10 +15,10 @@
     <incompatibilities/>
     <related-rules/>
     <criteria-values>
-      <criterium-value ref="OPT.CRITERIUM_VALUE.LANGUAGE_PARSER.JAVA"/>
+      <criterium-value ref="OPT.CRITERIUM_VALUE.LANGUAGE_PARSER.APEX"/>
       <criterium-value ref="OPT.CRITERIUM_VALUE.PRIORITY.MEDIUM"/>
       <criterium-value ref="OPT.CRITERIUM_VALUE.REPAIR_DIFFICULTY.MEDIUM"/>
-      <criterium-value ref="OPT.CRITERIUM_VALUE.CQM.MAINTAINABILITY"/>
+      <criterium-value ref="---category---"/>
       <criterium-value ref="OPT.CRITERIUM_VALUE.ENGINE.QAKING"/>
     </criteria-values>
     <i18ns>
